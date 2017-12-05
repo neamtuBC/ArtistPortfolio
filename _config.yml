@@ -2,7 +2,6 @@
 # Build settings
 markdown: kramdown
 permalink: pretty
-theme: artisturban
 
 sass:
   sass_dir: assets/css
