@@ -1,0 +1,63 @@
+#Site settings
+title: Artist Urban
+email: bogdan_neamtu@yahoo.com
+description: "Graffiti // Designer // Youtuber"
+
+#Menu item list
+
+menu:
+- {name: About Me, url: '#about-me'}
+- {name: Work, url: '#work'}
+- {name: Clients, url: '#clients'}
+- {name: Contact, url: '#contact'}
+
+#Skill list
+
+skills:
+- {name: Communication, value: '9'}
+- {name: Organization, value: '5'}
+- {name: Learning, value: '7'}
+- {name: Teaching, value: '3'}
+- {name: Planning, value: '7'}
+- {name: Visual Design, value: '8'}
+- {name: UX Design, value: '4'}
+- {name: Programming, value: '7'}
+
+#Change the site default images and content
+bg-imag: 236H3.jpg
+avatar: face.jpg
+
+blurb: <p><strong>Lorem ipsum dolor sit amet</strong>, sed utroque electram molestiae ex, ut sed veritus incorrupte. Ex reprimique scribentur per. Legimus hendrerit at per, cum ipsum nonumy eloquentiam ex. His et ipsum quidam, eos menandri assueverit ei. Nec ea wisi fastidii.Quaeque inimicus an ius, omnium deleniti cum no. Ei has autem commune volutpat. Eu eam assum salutandi, id congue alienum gloriatur eum. </p>
+
+#Work sections
+
+projects:
+- {name: Typo International, folder: 'proj-1'}
+- {name: american Apparel, folder: 'proj-2'}
+- {name: Crispy Icons, folder: 'proj-3'}
+- {name: Flat Mobile UI/UX Concept, folder: 'proj-4'}
+- {name: Fresh It Up, folder: 'proj-5'}
+- {name: Timeline Page, folder: 'proj-6'}
+- {name: Weather Dashboard, folder: 'proj-7'}
+- {name: Stripes & Co, folder: 'proj-8'}
+
+#Clients sections
+
+clients:
+- {avatar: 'face-aaroni.jpg', name: 'Scott Summers', title: 'Director of Design, Quebec Inc.', quote: ' <p><strong>Ut mattis lorem id tortor interdum convallis.</strong> Ut interdum mi sed orci pretium sagittis quis nec mi. Etiam facilisis laoreet blandit. Sed vulputate, enim rutrum tempus imperdiet, odio nunc tempus mauris, id hendrerit dui est sed erat. Etiam et semper ligula. Duis venenatis dui erat, non porta libero aliquam id. Morbi pulvinar est eu maximus imperdiet.</p>', logo: 'logo1.png'}
+- {avatar: 'face-atariboy.jpg', name: 'Scott Summers',title: 'Director of Design, Quebec Inc.', quote: ' <p><strong>Ut mattis lorem id tortor interdum convallis.</strong> Ut interdum mi sed orci pretium sagittis quis nec mi. Etiam facilisis laoreet blandit. Sed vulputate, enim rutrum tempus imperdiet, odio nunc tempus mauris, id hendrerit dui est sed erat. Etiam et semper ligula. Duis venenatis dui erat, non porta libero aliquam id. Morbi pulvinar est eu maximus imperdiet.</p>', logo: 'logo2.png'}
+- {avatar: 'face-jackiesaik.jpg', name: 'Scott Summers', title: 'Director of Design, Quebec Inc.', quote: ' <p><strong>Ut mattis lorem id tortor interdum convallis.</strong> Ut interdum mi sed orci pretium sagittis quis nec mi. Etiam facilisis laoreet blandit. Sed vulputate, enim rutrum tempus imperdiet, odio nunc tempus mauris, id hendrerit dui est sed erat. Etiam et semper ligula. Duis venenatis dui erat, non porta libero aliquam id. Morbi pulvinar est eu maximus imperdiet.</p>', logo: 'logo3.png'}
+- {avatar: 'face-teleject.jpg', name: 'Scott Summers', title: 'Director of Design, Quebec Inc.', quote: ' <p><strong>Ut mattis lorem id tortor interdum convallis.</strong> Ut interdum mi sed orci pretium sagittis quis nec mi. Etiam facilisis laoreet blandit. Sed vulputate, enim rutrum tempus imperdiet, odio nunc tempus mauris, id hendrerit dui est sed erat. Etiam et semper ligula. Duis venenatis dui erat, non porta libero aliquam id. Morbi pulvinar est eu maximus imperdiet.</p>', logo: 'logo4.png'}
+
+animation: "bounceOut"
+
+#Contact sections
+
+social:
+- {icon: 'facebook', link: ''}
+- {icon: 'dribbble', link: ''}
+- {icon: 'behance', link: ''}
+- {icon: 'linkedin', link: ''}
+- {icon: 'youtube', link: ''}
+
+#can be: 'twitter', 'facebook', 'gitgub'
