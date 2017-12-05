@@ -5,26 +5,26 @@
     margin: 0 auto
     +align-items(center)
     +justify-content(space-between)
-        
+
     .face-image
         border-radius: 50%
-        background-image: url(/assets/img/#{$avatar-path})
+        background-image: url(assets/img/#{$avatar-path})
         +size(200px)
         +order(3)
-        
+
     [class^="icon-"]
         +size(100px)
         background: $bgcolor
         border-radius: 50%
         path
             fill: $accent
-        
+
         &.icon-pencil
-            +order(1)   
+            +order(1)
         &.icon-mouse
             +order(2)
         &.icon-browser
-            +order(4)     
+            +order(4)
         &.icon-video
             +order(5)
 
@@ -32,51 +32,51 @@
     .face-lockup
         display: block
         text-align: center
-        
+
         div
             display: inline-block
-        
+
         .face-image
             display: block
             background-position: center center
             background-repeat: no-repeat
             width: auto
             margin-bottom: 30px
-            
+
         [class^="icon-"]
             margin: 10px
-            
-        
+
+
 .blurb
     max-width: 620px
     padding: 0 15px
     margin: 50px auto
     font-size: 24px
-    font-weight: 300 
+    font-weight: 300
     text-align: center
-    
 
-.skill-lockup 
+
+.skill-lockup
     max-width: 540px
     margin: 100px auto
     color: #999
     +clearfix
-    
+
     .skill-unit
         width: 270px
         float: left
-    
+
     .skill-icons
         font-size: 0
         margin: 0px 0 30px
-        
+
         span
             display: inline-block
             +size(14px)
             background-color: $bgcolor
             margin-right: 8px
             border-radius: 50%
-            
+
             &:after
                 content: ''
                 +size(10px)
@@ -84,7 +84,7 @@
                 border-radius: 50%
                 margin: 2px
                 display: block
-            
+
         @for $i from 1 through 10
             &.skill-#{$i} span:nth-child(n+#{$i + 1})
                 background: $accent
@@ -92,7 +92,3 @@
 @media screen and (max-width: 541px)
     .skill-lockup
         width: 270px
-        
-            
-    
-            
