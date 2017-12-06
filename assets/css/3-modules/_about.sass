@@ -59,14 +59,17 @@
 
 
 .skill-lockup
-    max-width: 540px
+    max-width: 490px
     margin: 100px auto
     color: #999
     +clearfix
 
     .skill-unit
-        width: 270px
+        width: 212px
         float: left
+
+    .skill-unit:nth-child(2n+0)
+        margin-left: 30px
 
     .skill-icons
         font-size: 0
@@ -87,10 +90,15 @@
                 margin: 2px
                 display: block
 
+        span:last-of-type
+            margin-right: 0px
+
         @for $i from 1 through 10
-            &.skill-#{$i} span:nth-child(n+#{$i + 1})
+            &.skill-#{$i} span:nth-child(-n+#{$i + 1})
                 background: $accent
 
 @media screen and (max-width: 541px)
     .skill-lockup
-        width: 270px
+        width: 212px
+        .skill-unit:nth-child(2n+0)
+            margin-left: 0px
