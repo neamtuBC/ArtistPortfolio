@@ -1,7 +1,7 @@
 #Site settings
-title: Artist Urban
-email: bogdan_neamtu@yahoo.com
-description: "Graffiti // Designer // Youtuber"
+title: Web Developer
+email: developer@yahoo.com
+description: "Developer | Designer | Youtuber"
 
 #Menu item list
 
@@ -24,8 +24,8 @@ skills:
 - {name: Programming, value: '7'}
 
 #Change the site default images and content
-bg-imag: 236H3.jpg
-avatar: face.jpg
+bg-imag: laptopBG.jpg
+avatar: profile-image.jpg
 
 blurb: <p><strong>Lorem ipsum dolor sit amet</strong>, sed utroque electram molestiae ex, ut sed veritus incorrupte. Ex reprimique scribentur per. Legimus hendrerit at per, cum ipsum nonumy eloquentiam ex. His et ipsum quidam, eos menandri assueverit ei. Nec ea wisi fastidii.Quaeque inimicus an ius, omnium deleniti cum no. Ei has autem commune volutpat. Eu eam assum salutandi, id congue alienum gloriatur eum. </p>
 
